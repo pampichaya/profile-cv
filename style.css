@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(253, 212, 232);
+}
+
+a {
+    color: rgb(67, 7, 39);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+h1 {
+    color: rgb(67, 7, 39);
+    font-size: 3rem;
+}
+
+a:hover {
+    /* text-decoration: underline; */
+    color: palevioletred;
+}
+
+nav {
+    display: flex;
+    gap: 16px;
+    padding: 1.5rem;
+    border-bottom: 2px solid black;
+}
+
+.container {
+    padding: 1.5rem;
+}
+
+.container .icon-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 24px 0;
+}
+
+.container .icon-img img {
+    width: 100%;
+}
+
+.container .content {
+    padding-bottom: 16px;
+    border-bottom: 1px solid black;
+}
+
+.container .box-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px 0;
+    border-bottom: 1px solid black;
+}
+
+.container .box-content ul {
+    margin-left: 16px;
+}
+
+table, td, th {
+    border: 1px dotted rgb(67, 7, 39);
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+table {
+    width: 50vw;
+}
+
+form {
+    border: 1px solid rgb(67, 7, 39);
+    padding: 24px;
+    width: 30vw;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.container .form-info {
+    display: flex;
+    flex-direction: column
+}
